@@ -1,38 +1,57 @@
-# Prerequisites
+# --- 编译生成文件 ---
 *.d
-
-# Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
-
-# Precompiled Headers
 *.gch
 *.pch
-
-# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
 *.mod
 *.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
 *.exe
 *.out
 *.app
 
+# --- VS 相关 ---
 .vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# --- CMake 生成中间文件（如果你有用）---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- 日志文件 ---
+*.log
+
+# --- 临时文件 ---
+*.tmp
+*.temp
+*~
+
+# --- 备份文件 ---
+*.bak
+*.old
+
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
+
+# --- SystemC 特有 ---
+*.vcd
+*.vpd
+*.fst
+*.wlf

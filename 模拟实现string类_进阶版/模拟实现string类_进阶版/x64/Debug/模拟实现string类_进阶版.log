@@ -1,4 +1,0 @@
-﻿  string.cpp
-D:\Code Manage\Github\Cplusplus-notes\模拟实现string类_进阶版\模拟实现string类_进阶版\string.cpp(195,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-D:\Code Manage\Github\Cplusplus-notes\模拟实现string类_进阶版\模拟实现string类_进阶版\string.cpp(213,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  模拟实现string类_进阶版.vcxproj -> D:\Code Manage\Github\Cplusplus-notes\模拟实现string类_进阶版\x64\Debug\模拟实现string类_进阶版.exe

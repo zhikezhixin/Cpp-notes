@@ -1,3 +1,0 @@
-﻿  Test.cpp
-D:\Code Manage\C++notes\2025_3_30\2025_3_30\Test.cpp(59,1): warning C4172: 返回局部变量的地址或临时 : tmp
-  2025_3_30.vcxproj -> D:\Code Manage\C++notes\2025_3_30\x64\Debug\2025_3_30.exe
