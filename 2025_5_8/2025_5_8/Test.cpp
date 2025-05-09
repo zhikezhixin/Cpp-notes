@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <queue>
 #include <map>
+#include <cctype>
 using namespace std;
 
 //已知函数 signFunc(x) 将会根据 x 的正负返回特定值：
@@ -108,7 +109,35 @@ public:
     }
 };
 
+//给你一个字符串 s，由若干单词组成，单词前后用一些空格字符隔开。返回字符串中 最后一个 单词的长度。
+//单词 是指仅由字母组成、不包含任何空格字符的最大子字符串。
+class Solution {
+public:
+    int lengthOfLastWord(string s) {
+        int count = 0;
+        string::reverse_iterator rit = s.rbegin();
+        while (rit != s.rend())
+        {
+            if (*rit != ' ')
+                count++;
+            if (*rit == ' ' && count != 0)
+                break;
+        }
+        return count;
+    }
+};
 
+//给你一个字符串 s ，将该字符串中的大写字母转换成相同的小写字母，返回新的字符串。
+class Solution {
+public:
+    string toLowerCase(string s) {
+        for (char& ch : s)
+        {
+            tolower(ch);
+        }
+        return s;
+    }
+};
 
 int main()
 {
