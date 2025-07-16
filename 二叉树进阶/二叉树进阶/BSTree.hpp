@@ -132,20 +132,26 @@ public:
 					else
 					{
 						parent->_left = cur->_left;
-					}
+					} 
 					delete cur;
 				}
 				else //被删节点左右孩子均存在不可直接删除，采用替换法，用 左子树最右边孩子 或者 右子树最左边孩子替换
 				{
 					Node* rightMin = cur->_right; //使用右子树最小孩子（最左边孩子）
-					Node* rightMinParent = nullptr;
+					Node* rightMinParent = cur;
 					while (rightMin->_left)
 					{
 						rightMinParent = rightMin;
 						rightMin =  rightMin->_left;
 					}
 					cur->_key = rightMin->_key;
-					rightMinParent->_left = rightMin->_right;
+					if (rightMin == rightMinParent->_left)
+					{
+						rightMinParent->_left = rightMin->_right;
+					}
+					else
+						rightMinParent->_right = rightMin->_right;
+					
 					delete rightMin;
 				}
 				return true;
