@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\Test.obj",
+            "outputs": [
+                "x64\\Debug\\Test.h_19005362EA3EB35C.ifc.dt.module.json",
+                "x64\\Debug\\Test.h_19005362EA3EB35C.ifc.dt.d.json",
+                "x64\\Debug\\Test.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\CodeManager\\VisualStudio\\C++PrimerPlus\\Cpp-notes\\加权并查集\\加权并查集\\Test.h",
+                    "source-path": "d:\\codemanager\\visualstudio\\c++primerplus\\cpp-notes\\加权并查集\\加权并查集\\test.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

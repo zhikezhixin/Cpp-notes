@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\WeightedUnionFind.h.obj",
+            "outputs": [
+                "D:\\CodeManager\\VisualStudio\\C++PrimerPlus\\Cpp-notes\\加权并查集\\加权并查集\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "D:\\CodeManager\\VisualStudio\\C++PrimerPlus\\Cpp-notes\\加权并查集\\加权并查集\\x64\\Debug\\WeightedUnionFind.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "WeightedUnionFind.h",
+                    "source-path": "d:\\codemanager\\visualstudio\\c++primerplus\\cpp-notes\\加权并查集\\加权并查集\\weightedunionfind.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
