@@ -55,3 +55,16 @@ Thumbs.db
 *.vpd
 *.fst
 *.wlf
+
+# Additional local/generated files
+packages/
+*.nupkg
+*.pfx
+*.APS
+*.vcd
+x64/
+x86/
+Debug/
+Release/
+bin/
+obj/
